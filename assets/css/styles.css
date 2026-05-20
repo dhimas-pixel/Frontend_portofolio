@@ -410,7 +410,7 @@ img {
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
-  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.15);
 }
 
 .about__description {
@@ -746,6 +746,8 @@ img {
   width: 265px;
   border-radius: 0.5rem;
   justify-self: center;
+  align-self: center;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.15);
 }
 
 .portfolio__title {
@@ -755,6 +757,10 @@ img {
 
 .portfolio__description {
   margin-bottom: var(--mb-0-75);
+}
+
+.portfolio__button:hover {
+  cursor: pointer;
 }
 
 .portfolio__button:hover .button__icon {
